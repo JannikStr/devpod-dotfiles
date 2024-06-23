@@ -10,6 +10,7 @@
         nodejs_22
         go
         starship
+        cmake
       ];
     };
   };
