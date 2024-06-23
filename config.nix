@@ -11,6 +11,7 @@
         go
         starship
         cmake
+        tree-sitter
       ];
     };
   };
