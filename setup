@@ -1,8 +1,13 @@
 #!/bin/bash
 
+NVIM_REPOSITORY="git@github.com:JannikStr/NeoVim-Config.git"
+
 export XDG_CONFIG_HOME="$HOME/.config"
 
 mkdir -p "$XDG_CONFIG_HOME"/nixpkgs
+
+
+git clone -b lua "$NVIM_REPOSITORY" $XDG_CONFIG_HOME/nvim
 
 ln -sf "$PWD/nvim" "$XDG_CONFIG_HOME"/nvim
 
