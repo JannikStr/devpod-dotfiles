@@ -12,6 +12,8 @@
         starship
         cmake
         tree-sitter
+        tmux
+        python312
       ];
     };
   };
