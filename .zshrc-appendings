@@ -1,2 +1,3 @@
 alias v='nvim'
+alias tmux='tmux -u'
 source <(fzf --zsh)
