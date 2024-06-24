@@ -1,0 +1,28 @@
+diff --git a/lua/jannik/plugins/lsp/mason.lua b/lua/jannik/plugins/lsp/mason.lua
+index 450d822..e9304a2 100644
+--- a/lua/jannik/plugins/lsp/mason.lua
++++ b/lua/jannik/plugins/lsp/mason.lua
+@@ -23,7 +23,6 @@ mason_lspconfig.setup({
+ 		"lua_ls",
+ 		"rust_analyzer",
+ 		"bashls",
+-		"clangd",
+ 		"cmake",
+ 		"dockerls",
+ 		"jsonls",
+@@ -31,7 +30,6 @@ mason_lspconfig.setup({
+ 		"julials",
+ 		"marksman",
+ 		"jedi_language_server",
+-        "fortls",
+         "texlab",
+         "gopls"
+ 	},
+@@ -42,7 +40,6 @@ mason_null_ls.setup({
+ 		"prettier",
+ 		"stylua",
+ 		"eslint_d",
+-		"clang_format",
+ 		"cpplint",
+ 		"markdownlint",
+ 		"mypy",
